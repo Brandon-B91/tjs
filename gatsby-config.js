@@ -36,10 +36,10 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Tj's Evergreen Market",
+    description: "The home for your naturaul and orgnanic products and supplements.",
   },
-  pathPrefix: "/gatsby-contentful-starter",
+  pathPrefix: "/",
   plugins: [
     "gatsby-transformer-remark",
     "gatsby-transformer-sharp",
