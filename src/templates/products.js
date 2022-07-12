@@ -19,12 +19,12 @@ class products extends React.Component {
         <Seo
           title={post.title}
           description={post.description.childMarkdownRemark.excerpt}
-          image={`http:${post.heroImage.resize.src}`}
+          image={`http:${post.heroImage}`}
         />
         <Hero
           image={post.heroImage?.gatsbyImageData}
           title={post.title}
-          price={` $ ${post.Price} / rooted`}
+          price={` $ ${post.Price}`}
           content={post.description?.childMarkdownRemark?.excerpt}
         />
         <div className={styles.container}>
@@ -75,7 +75,7 @@ export const pageQuery = graphql`
       slug
       title
       heroImage {
-        gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, width: 1280)
+        gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED, width: 1280)
 
       }
       body {

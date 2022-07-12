@@ -11,7 +11,7 @@ class RootIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} >
-        <h2>Your health is our business</h2>
+        <h2 style={{marginLeft: '5%', marginTop: '5%'}}>Your health is our business</h2>
         <ProductPreview posts={posts} />
       </Layout>
     )
