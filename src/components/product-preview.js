@@ -15,9 +15,9 @@ const ProductPreview = ({ posts }) => {
       <ul className={styles.articleList}>
         {posts.map((post) => {
           return (
-            <li key={post.slug}>
+            <li key={post.slug} className={styles.li}>
               <Link to={`/store/${post.slug}`} className={styles.link}>
-                <GatsbyImage alt="" image={post.heroImage.gatsbyImageData} />
+                <GatsbyImage alt="" image={post.heroImage.gatsbyImageData} className={styles.img}/>
                 <h2 className={styles.title}>{post.title}</h2>
               </Link>
               <div
@@ -27,7 +27,7 @@ const ProductPreview = ({ posts }) => {
               />
               <div className={styles.meta}>
                 <small className="meta">{post.publishDate}</small>
-                <Tags tags={post.tags} />
+                <Tags tags={post.tags} className={styles.tags}/>
               </div>
             </li>
           )

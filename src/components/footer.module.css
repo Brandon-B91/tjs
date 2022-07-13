@@ -19,10 +19,11 @@ a:hover {
   border: none;
   cursor: pointer;
 }
- p:nth-last-child(1) {
-  text-align: center;
-  color: red;
+
+Footer p:nth-last-child(1) {
+  position: static;
   bottom: 0;
+  text-align: center;
 }
 
 

@@ -10,6 +10,7 @@ const Footer = () => (
   <Container as="footer">
     <div className={styles.container}>
       <h4><FaLocationArrow /> 1510 Deborah Rd SE Rio Rancho, NM 87124 </h4>
+      (505) - 892 - 5243
       <p>Check us out on social media!</p>
       <a
         href="https://www.facebook.com/tjsevergreen"
@@ -27,7 +28,7 @@ const Footer = () => (
       >
         <FaInstagram style={{ fontSize: '32px', margin: '2%' }}></FaInstagram>
       </a>
-      <p> &copy;2020 All rights reserved.</p>
+      <p className="tradeMark"> &copy;2020 All rights reserved.</p>
     </div>
   </Container>
 )

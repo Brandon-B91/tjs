@@ -7,6 +7,12 @@
   grid-gap: var(--space-3xl);
 }
 
+.li {
+  background: white;
+  padding: 2%;
+  max-height: 400px;
+}
+
 .title {
   display: inline-block;
   font-size: var(--text-lg);
@@ -24,7 +30,9 @@
 }
 
 .meta {
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-end;
+  display: flex; 
+  width: 100%;
 }
+
+
+
