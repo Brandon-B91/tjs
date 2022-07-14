@@ -37,7 +37,7 @@ if (!spaceId || !accessToken) {
 module.exports = {
   siteMetadata: {
     title: "Tj's Evergreen Market",
-    description: "The home for your naturaul and orgnanic products and supplements.",
+    description: "The home for your naturaul and organic products and supplements.",
   },
   pathPrefix: "/",
   plugins: [

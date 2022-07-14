@@ -1,8 +1,8 @@
 .container {
-  border-top: 1px solid black;
-  font-size: var(--text-sm);
+  font-size: var(--text-md);
   margin-top: var(--space-2xl);
   padding: var(--space-2xl) 0;
+  font-weight: var(--md)
 }
 
 .container a {
@@ -20,10 +20,20 @@ a:hover {
   cursor: pointer;
 }
 
+Footer {
+  background: white;
+  border-top: 1px solid black;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 Footer p:nth-last-child(1) {
-  position: static;
-  bottom: 0;
   text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 
