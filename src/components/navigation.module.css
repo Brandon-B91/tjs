@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   max-width: var(--size-max-width);
+  max-width: 100%;
   align-items: center;
   margin: 0 auto;
   padding: var(--space-2xl) var(--size-gutter);
@@ -20,6 +21,8 @@
   display: inline-flex;
   align-items: center;
   flex-direction: row;
+  background: none;
+  margin: 0;
 }
 
 .navigationItem a {

@@ -1,8 +1,7 @@
 .container {
   font-size: var(--text-md);
-  margin-top: var(--space-2xl);
-  padding: var(--space-2xl) 0;
-  font-weight: var(--md)
+  font-weight: var(--md);
+  min-height: 200px;
 }
 
 .container a {
@@ -23,10 +22,8 @@ a:hover {
 Footer {
   background: white;
   border-top: 1px solid black;
-  max-height: 400px;
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 Footer p:nth-last-child(1) {
@@ -34,6 +31,10 @@ Footer p:nth-last-child(1) {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  margin: 0;
 }
 
+.address {
+  margin: 3%;
+}
 
