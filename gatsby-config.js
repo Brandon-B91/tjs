@@ -22,7 +22,7 @@ const contentfulConfig = {
 //
 // To change back to the normal CDA, remove the CONTENTFUL_HOST variable from your environment.
 if (process.env.CONTENTFUL_HOST) {
-  contentfulConfig.host = process.env.CONTENTFUL_HOST;
+  // contentfulConfig.host = process.env.CONTENTFUL_HOST;
   contentfulConfig.accessToken = process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN;
 }
 
@@ -37,7 +37,7 @@ if (!spaceId || !accessToken) {
 module.exports = {
   siteMetadata: {
     title: "Tj's Evergreen Market",
-    description: "The home for your naturaul and organic products and supplements.",
+    description: "The home for your natural and organic products and supplements.",
   },
   pathPrefix: "/",
   plugins: [
